@@ -1,0 +1,6 @@
+﻿  ConsoleApplication1.c
+C:\Users\あみ\Documents\GitHub\multi_console\Solution1\ConsoleApplication1\ConsoleApplication1.c(26,3): warning C4133: '関数': 'char [9]' と 'LPCWSTR' の間で型に互換性がありません。
+C:\Users\あみ\Documents\GitHub\multi_console\Solution1\ConsoleApplication1\ConsoleApplication1.c(18,7): warning C4101: 'msg': ローカル変数は 1 度も使われていません。
+C:\Users\あみ\Documents\GitHub\multi_console\Solution1\ConsoleApplication1\ConsoleApplication1.c(16,14): warning C4101: 'CurrentData': ローカル変数は 1 度も使われていません。
+C:\Users\あみ\Documents\GitHub\multi_console\Solution1\ConsoleApplication1\ConsoleApplication1.c(17,7): warning C4101: 'bAlreadyExists': ローカル変数は 1 度も使われていません。
+  ConsoleApplication1.vcxproj -> C:\Users\あみ\Documents\GitHub\multi_console\Solution1\x64\Debug\ConsoleApplication1.exe
