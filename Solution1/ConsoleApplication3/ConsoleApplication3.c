@@ -1,7 +1,5 @@
-﻿// ConsoleApplication3.cpp : このファイルには 'main' 関数が含まれています。プログラム実行の開始と終了がそこで行われます。
-//
-
-#include <stdio.h>
+﻿#include <stdio.h>
+#include <stdlib.h>
 #include <windows.h>
 
 char filename[] = "TestFile";
@@ -33,11 +31,22 @@ int main()
 
 	pData = (SHARED_DATA*)MapViewOfFile(hShare, FILE_MAP_ALL_ACCESS, 0, 0, sizeof(SHARED_DATA));
 
+	SHARED_DATA OldData = { 0 };
+
+	memcpy(&OldData, pData, sizeof(SHARED_DATA));
+
+	printf("data : %d\n", pData->cnt);
+
 	while (1)
 	{
-		system("cls");
+		if (memcmp(&OldData, pData, sizeof(SHARED_DATA)))
+		{
+			system("cls");
 
-		printf("data : %d\n", pData->cnt);
+			printf("data : %d\n", pData->cnt);
+
+			memcpy(&OldData, pData, sizeof(SHARED_DATA));
+		}
 	}
 }
 

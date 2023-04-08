@@ -1,4 +1,4 @@
 ﻿  ConsoleApplication3.c
-C:\Users\あみ\Documents\GitHub\multi_console\Solution1\ConsoleApplication3\ConsoleApplication3.c(22,57): warning C4133: '関数': 'char [9]' と 'LPCWSTR' の間で型に互換性がありません。
-C:\Users\あみ\Documents\GitHub\multi_console\Solution1\ConsoleApplication3\ConsoleApplication3.c(32,14): warning C4101: 'CurrentData': ローカル変数は 1 度も使われていません。
-  ConsoleApplication3.vcxproj -> C:\Users\あみ\Documents\GitHub\multi_console\Solution1\x64\Debug\ConsoleApplication3.exe
+C:\Users\あみ\Documents\GitHub\multi_console\multi_console\Solution1\ConsoleApplication3\ConsoleApplication3.c(20,57): warning C4133: '関数': 'char [9]' と 'LPCWSTR' の間で型に互換性がありません。
+C:\Users\あみ\Documents\GitHub\multi_console\multi_console\Solution1\ConsoleApplication3\ConsoleApplication3.c(30,14): warning C4101: 'CurrentData': ローカル変数は 1 度も使われていません。
+  ConsoleApplication3.vcxproj -> C:\Users\あみ\Documents\GitHub\multi_console\multi_console\Solution1\x64\Debug\ConsoleApplication3.exe
